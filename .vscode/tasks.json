@@ -18,7 +18,11 @@
 			"command": "npm install",
 			"options": {
 				"cwd": "${workspaceFolder}/api"
-			}
+			},
+			"problemMatcher": [
+				"$swa-watch"
+			],
+			"isBackground": true
 		},
 		{
 			"type": "shell",
